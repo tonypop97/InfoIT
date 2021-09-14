@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.CollapsingToolbarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark"
+    app:titleTextColor="@color/colorPrimary"
+    style="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+    android:id="@+id/toolbar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textSize="25dp"
+            android:layout_margin="15dp"
+            android:textColor="@color/colorPrimary" />
+    </RelativeLayout>
+</com.google.android.material.appbar.CollapsingToolbarLayout>

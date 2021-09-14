@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.licentaandroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LicentaAndroid">
+        <activity
+            android:name=".Activities.ViewUsersActivity"
+            tools:ignore="Instantiatable"></activity>
+        <activity
+            android:name=".Activities.PrivateCommentActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.ListOfUsersActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.ListOfTeachersActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.ProfileAdminActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.GlobalComment"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.PrivateMessageActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.UsersListActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.PdfDownloadActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.ListCoursesTeacherActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.AdminPanelActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.ProfileTeacherActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.AddCourseActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.AssigmentActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.CourseActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.MenuActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.ProfileUserActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.ForgotPasswordActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.RegisterActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

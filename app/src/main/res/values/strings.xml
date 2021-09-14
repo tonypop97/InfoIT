@@ -1,0 +1,23 @@
+<resources>
+
+
+    <string-array name="courses">
+        <item>C</item>
+        <item>C++</item>
+        <item>C#</item>
+    </string-array>
+
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_C">C</string>
+    <string name="menu_Cp">C++</string>
+    <string name="menu_Cs">C#</string>
+
+</resources>
